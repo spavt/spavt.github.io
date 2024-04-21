@@ -10,7 +10,7 @@ window.onload = function () {
 
     var jianBtn = document.getElementById("jian");//获取减法按钮
     var chengBtn = document.getElementById("cheng");//获取乘法按钮
-    var chuButton = document.getElementById("chu");//获取除法按钮
+    var chuBtn = document.getElementById("chu");//获取除法按钮
     var cleanc=document.querySelector(".cleanc");//获取清除按钮
     var res = document.querySelector(".res");//获取结果
     cleanc.onclick = function(){//点击清除按钮时触发事件
@@ -18,10 +18,10 @@ window.onload = function () {
         v1.value="";
         v2.value="";
         res.innerHTML=0;
-        jianBtn.classList.remove("bgcurrent");//移除背景颜色
+        jiaBtn.classList.remove("bgcurrent");//移除背景颜色
         chengBtn.classList.remove("bgcurrent");//移除背景颜色
-        chuButton.classList.remove("bgcurrent");//移除背景颜色
-        jiaBtn.classList.remove("bgcurrent");//添加背景颜色
+        chuBtn.classList.remove("bgcurrent");//移除背景颜色
+        jianBtn.classList.recome("bgcurrent");//移除背景颜色
     }
 
    
@@ -29,7 +29,7 @@ window.onload = function () {
 
         jianBtn.classList.remove("bgcurrent");//移除背景颜色
         chengBtn.classList.remove("bgcurrent");//移除背景颜色
-        chuButton.classList.remove("bgcurrent");//移除背景颜色
+        chuBtn.classList.remove("bgcurrent");//移除背景颜色
         this.classList.add("bgcurrent");//添加背景颜色
 
         document.getElementById("music1").play();//播放音乐
@@ -49,7 +49,7 @@ window.onload = function () {
     jianBtn.onclick = function () {
         jiaBtn.classList.remove("bgcurrent");//移除背景颜色
         chengBtn.classList.remove("bgcurrent");//移除背景颜色
-        chuButton.classList.remove("bgcurrent");//移除背景颜色
+        chuBtn.classList.remove("bgcurrent");//移除背景颜色
         this.classList.add("bgcurrent");//添加背景颜色
 
         document.getElementById("music1").play();//播放音乐
@@ -69,7 +69,7 @@ window.onload = function () {
 
         jiaBtn.classList.remove("bgcurrent");//移除背景颜色
         jianBtn.classList.remove("bgcurrent");//移除背景颜色
-        chuButton.classList.remove("bgcurrent");//移除背景颜色
+        chuBtn.classList.remove("bgcurrent");//移除背景颜色
         this.classList.add("bgcurrent");//添加背景颜色
 
         document.getElementById("music1").play();//播放音乐
@@ -85,7 +85,7 @@ window.onload = function () {
     }
     //除法
 
-    chuButton.onclick = function () {
+    chuBtn.onclick = function () {
 
         jiaBtn.classList.remove("bgcurrent");//移除背景颜色
         jianBtn.classList.remove("bgcurrent");//移除背景颜色
