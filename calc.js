@@ -21,7 +21,7 @@ window.onload = function () {
         jianBtn.classList.remove("bgcurrent");//移除背景颜色
         chengBtn.classList.remove("bgcurrent");//移除背景颜色
         chuButton.classList.remove("bgcurrent");//移除背景颜色
-        jia.classList.remove("bgcurrent");//添加背景颜色
+        jiaBtn.classList.remove("bgcurrent");//添加背景颜色
     }
 
    
