@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    margin: 20px;
+    font-size: 20px;
+}
+.main{
+    text-align: center;
+    margin-top:200px;
+}
+#username{
+    font-size: 20px;
+}
+span{
+    font-size: 25px;
+    font-weight:1000; 
+    
+}
